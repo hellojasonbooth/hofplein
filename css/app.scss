@@ -6,6 +6,7 @@ $primary-color: black;
 $white-color: #fff;
 $grey-color: #656565;
 $grey-link: #2e2e2e;
+$lightgrey-link: #d3d3d3;
 $blue-color: #dbecf2;
 
 $body-font: "Helvetica";
@@ -59,6 +60,10 @@ span.title-serif {
     font-style: italic;
 }
 
+video.block-level--video {
+    width: 100%;
+}
+
 
 
 
@@ -74,10 +79,25 @@ span.title-serif {
     padding: 14px 18px;
     text-transform: uppercase;
     transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: $grey-link;
+    }
 }
 
-.btn-primary:hover {
-    background-color: $grey-link;
+.btn-secondary {
+    background-color: $white-color;
+    color: $primary-color;
+    border: none; 
+    font-size: $button-size;
+    padding: 14px 18px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: $lightgrey-link;
+        color: $primary-color;
+    }
 }
 
 
@@ -252,6 +272,60 @@ div.col-md {
 
 
 
+
+
+section.content-block--alt {
+    margin: 120px 0;
+    position: relative;
+
+    div.container-fluid {
+        padding: 0 40px;
+    }
+
+    img {
+        margin: 60px 0;
+    }
+
+    span.dash-top {
+        font-size: $h2-size;
+    }
+
+    span.dash-bottom {
+        font-size: $h2-size;
+    }
+}
+
+section.content-block--alt div.row {
+    align-items: center;
+    text-align: center;
+    color: $white-color;
+}
+
+div.background-color--alt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    background-color: $primary-color;
+    height: 100%;
+}
+
+div.col-md {
+
+    p {
+        margin: 30px 0;
+    }
+
+
+    div {
+        max-width: 370px;
+        margin: auto;
+    }
+
+}
+
+
+
 /* ======== FEATURES ======== */
 
 section.features  {
@@ -272,5 +346,17 @@ section.features  {
 
     }
 
+}
 
+/* ======== CREATE ANY LAYOUT ======== */
+
+section.create-layout {
+    position: relative;
+
+
+    h2 {
+        position: absolute;
+        bottom: 40px;
+        right: 40px;
+    }
 }

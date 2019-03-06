@@ -86,6 +86,9 @@ span.title-serif {
   font-family: "Georgia";
   font-style: italic; }
 
+video.block-level--video {
+  width: 100%; }
+
 /* ======== BUTTONS ======== */
 .btn-primary {
   background-color: black;
@@ -95,9 +98,20 @@ span.title-serif {
   padding: 14px 18px;
   text-transform: uppercase;
   transition: background-color 0.3s ease; }
+  .btn-primary:hover {
+    background-color: #2e2e2e; }
 
-.btn-primary:hover {
-  background-color: #2e2e2e; }
+.btn-secondary {
+  background-color: #fff;
+  color: black;
+  border: none;
+  font-size: 12px;
+  padding: 14px 18px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease; }
+  .btn-secondary:hover {
+    background-color: #d3d3d3;
+    color: black; }
 
 /* ======== NAVIGATION ======== */
 nav.navbar {
@@ -212,6 +226,38 @@ div.col-md div {
   max-width: 370px;
   margin: auto; }
 
+section.content-block--alt {
+  margin: 120px 0;
+  position: relative; }
+  section.content-block--alt div.container-fluid {
+    padding: 0 40px; }
+  section.content-block--alt img {
+    margin: 60px 0; }
+  section.content-block--alt span.dash-top {
+    font-size: 32px; }
+  section.content-block--alt span.dash-bottom {
+    font-size: 32px; }
+
+section.content-block--alt div.row {
+  align-items: center;
+  text-align: center;
+  color: #fff; }
+
+div.background-color--alt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  background-color: black;
+  height: 100%; }
+
+div.col-md p {
+  margin: 30px 0; }
+
+div.col-md div {
+  max-width: 370px;
+  margin: auto; }
+
 /* ======== FEATURES ======== */
 section.features {
   padding: 120px 20px; }
@@ -221,3 +267,11 @@ section.features {
     padding: 20px 16px; }
     section.features div.row div.flex img {
       margin-right: 16px; }
+
+/* ======== CREATE ANY LAYOUT ======== */
+section.create-layout {
+  position: relative; }
+  section.create-layout h2 {
+    position: absolute;
+    bottom: 40px;
+    right: 40px; }
