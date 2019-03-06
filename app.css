@@ -63,9 +63,9 @@ input, textarea, select {
   src: url(fonts/TradeGothic-Bold.woff); }
 
 /* ======== ANIMATIONS ======== */
-@keyframes fadeup {
+@keyframes fadein {
   0% {
-    transform: translateY(50px);
+    transform: translateY(40px);
     opacity: 0; }
   100% {
     transform: translateY(0px);
@@ -87,7 +87,14 @@ span.title-serif {
   font-style: italic; }
 
 video.block-level--video {
-  width: 100%; }
+  width: 100%;
+  padding: 0 40px; }
+
+span.dash-top {
+  display: block; }
+
+span.dash-bottom {
+  display: block; }
 
 /* ======== BUTTONS ======== */
 .btn-primary {
@@ -116,7 +123,11 @@ video.block-level--video {
 /* ======== NAVIGATION ======== */
 nav.navbar {
   background-color: #fff;
-  padding: 12px 40px; }
+  padding: 12px 40px;
+  transition: padding 0.4s ease; }
+
+nav.navbar.scrolled {
+  padding: 0px 40px; }
 
 div.collapse.navbar-collapse.active {
   transition: all 0.4s ease;
@@ -227,7 +238,7 @@ div.col-md div {
   margin: auto; }
 
 section.content-block--alt {
-  margin: 120px 0;
+  margin-top: 120px;
   position: relative; }
   section.content-block--alt div.container-fluid {
     padding: 0 40px; }

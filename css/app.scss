@@ -32,8 +32,8 @@ $mq-small: 500px;
 
 
 /* ======== ANIMATIONS ======== */
-@keyframes fadeup {
-    0% {transform: translateY(50px); opacity: 0;}
+@keyframes fadein {
+    0% {transform: translateY(40px); opacity: 0;}
     100% {transform: translateY(0px); opacity: 1;}
   }
 
@@ -62,6 +62,15 @@ span.title-serif {
 
 video.block-level--video {
     width: 100%;
+    padding: 0 40px;
+}
+
+span.dash-top {
+    display: block;
+}
+
+span.dash-bottom {
+    display: block;
 }
 
 
@@ -110,6 +119,11 @@ video.block-level--video {
 nav.navbar {
     background-color: $white-color;
     padding: 12px 40px;
+    transition: padding 0.4s ease;
+}
+
+nav.navbar.scrolled {
+    padding: 0px 40px;
 }
 
 div.collapse.navbar-collapse.active {
@@ -275,7 +289,7 @@ div.col-md {
 
 
 section.content-block--alt {
-    margin: 120px 0;
+    margin-top: 120px;
     position: relative;
 
     div.container-fluid {
