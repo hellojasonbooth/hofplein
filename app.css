@@ -82,6 +82,10 @@ h2 {
   text-align: center;
   text-transform: uppercase; }
 
+h3 {
+  font-size: 24px;
+  text-transform: uppercase; }
+
 span.title-serif {
   font-family: "Georgia";
   font-style: italic; }
@@ -286,3 +290,19 @@ section.create-layout {
     position: absolute;
     bottom: 40px;
     right: 40px; }
+
+section.additional img {
+  margin-bottom: 30px; }
+
+section.additional h3, section.additional p {
+  margin-bottom: 26px; }
+
+footer {
+  height: 170px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 40px; }
+  footer img.up {
+    width: 30px;
+    cursor: pointer; }
