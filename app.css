@@ -292,18 +292,27 @@ section.create-layout {
     right: 40px; }
 
 section.additional {
-  margin-bottom: 150px; }
+  padding-bottom: 150px; }
   section.additional img {
     margin-bottom: 30px; }
   section.additional h3, section.additional p {
     margin-bottom: 26px; }
 
+main {
+  margin-bottom: 200px;
+  background-color: #fff; }
+
 footer {
-  height: 170px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 200px;
+  width: 100%;
   background-color: black;
   display: flex;
   justify-content: space-between;
-  padding: 0px 40px; }
+  padding: 0px 40px;
+  z-index: -102; }
   footer img.up {
     width: 30px;
     cursor: pointer; }

@@ -385,7 +385,7 @@ section.create-layout {
 
 section.additional {
 
-    margin-bottom: 150px;
+    padding-bottom: 150px;
 
     img {
         margin-bottom: 30px;
@@ -398,13 +398,23 @@ section.additional {
 
 }
 
+main {
+    margin-bottom: 200px;
+    background-color: $white-color;
+}
+
 
 footer {
-    height: 170px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
     background-color: $primary-color;
     display: flex;
     justify-content: space-between;
     padding: 0px 40px;
+    z-index: -102;
 
     img.up {
         width: 30px;
