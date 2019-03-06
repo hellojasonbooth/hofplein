@@ -249,3 +249,28 @@ div.col-md {
     }
 
 }
+
+
+
+/* ======== FEATURES ======== */
+
+section.features  {
+
+    padding: 120px 20px;
+
+    div.row {
+
+        div.flex {
+            display: flex;
+            align-items: center;
+            padding: 20px 16px;
+
+            img {
+                margin-right: 16px;
+            }
+        }
+
+    }
+
+
+}
