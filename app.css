@@ -53,3 +53,27 @@ input, textarea, select {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility; }
+
+@font-face {
+  font-family: "Maison Mono";
+  src: url(fonts/MaisonMono-Regular.woff); }
+
+@font-face {
+  font-family: Trade Gothic;
+  src: url(fonts/TradeGothic-Bold.woff); }
+
+@keyframes fadeup {
+  0% {
+    transform: translateY(14px) rotate(12deg);
+    opacity: 0; }
+  100% {
+    transform: translateY(0px) rotate(0deg);
+    opacity: 1; } }
+
+/* ======== NAVIGATION ======== */
+div.collapse.navbar-collapse.active {
+  transition: all 0.4s ease;
+  display: block; }
+
+div.row {
+  background-color: blue; }
