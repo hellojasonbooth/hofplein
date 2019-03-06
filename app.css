@@ -291,11 +291,12 @@ section.create-layout {
     bottom: 40px;
     right: 40px; }
 
-section.additional img {
-  margin-bottom: 30px; }
-
-section.additional h3, section.additional p {
-  margin-bottom: 26px; }
+section.additional {
+  margin-bottom: 150px; }
+  section.additional img {
+    margin-bottom: 30px; }
+  section.additional h3, section.additional p {
+    margin-bottom: 26px; }
 
 footer {
   height: 170px;
