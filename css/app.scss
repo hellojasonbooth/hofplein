@@ -45,6 +45,13 @@ $mq-small: 500px;
 body {
     font-family: $body-font;
     line-height: 1.3;
+    color: $primary-color;
+}
+
+h2 {
+    font-size: $h2-size;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 span.title-serif {
@@ -82,6 +89,7 @@ span.title-serif {
 
 nav.navbar {
     background-color: $white-color;
+    padding: 12px 40px;
 }
 
 div.collapse.navbar-collapse.active {
@@ -139,6 +147,8 @@ section.hero {
 
 section.hero div.hero-title  {
 
+    margin-top: 100px;
+
     h1 {
         font-size: $h1-size;
         color: $white-color;
@@ -158,7 +168,7 @@ section.hero div.hero-title  {
 
 
 
-
+/* ======== Title section ======== */
 
 section.statement-title {
     height: 100%;
@@ -185,6 +195,57 @@ section.statement-title {
         text-align: center;
         text-transform: uppercase; 
         max-width: 500px;
+    }
+
+}
+
+
+/* ======== Content section ======== */
+
+section.content-block {
+    position: relative;
+
+    div.container-fluid {
+        padding: 0 40px;
+    }
+
+    img {
+        margin: 60px 0;
+    }
+
+    span.dash-top {
+        font-size: $h2-size;
+    }
+
+    span.dash-bottom {
+        font-size: $h2-size;
+    }
+}
+
+section.content-block div.row {
+    align-items: center;
+    text-align: center;
+}
+
+div.background-color {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80%;
+    background-color: $blue-color;
+    height: 100%;
+}
+
+div.col-md {
+
+    p {
+        margin: 30px 0;
+    }
+
+
+    div {
+        max-width: 370px;
+        margin: auto;
     }
 
 }
