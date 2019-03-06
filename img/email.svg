@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="22px" viewBox="0 0 20 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>email</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="bevel">
+        <g id="Contact" transform="translate(-655.000000, -579.000000)" stroke="#FFFFFF">
+            <g id="Details" transform="translate(0.000000, 501.000000)">
+                <g id="email" transform="translate(656.000000, 78.000000)">
+                    <g id="Page-1">
+                        <polygon id="Stroke-1" stroke-width="2" points="11 0.7071 15 4.7071 4 15.7071 0 15.7071 0 11.7071"></polygon>
+                        <path d="M0,20.7071 L18,20.7071" id="Stroke-3" stroke-width="2"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

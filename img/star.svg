@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Star Copy 9</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage" transform="translate(-442.000000, -2012.000000)" stroke="#000000">
+            <g id="FLEXIBLE" transform="translate(182.000000, 1119.000000)">
+                <g id="Features" transform="translate(20.000000, 813.000000)">
+                    <g id="Star" transform="translate(241.000000, 81.000000)">
+                        <g>
+                            <circle id="Oval-2" stroke-width="2" cx="13" cy="13" r="13"></circle>
+                            <polygon id="Star-2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="13.0325343 17.1345912 7.84742865 20.6009713 9.54186628 14.5984725 4.64285714 10.7383144 10.8751828 10.4949462 13.0325343 4.64285714 15.1898857 10.4949462 21.4222114 10.7383144 16.5232023 14.5984725 18.2176399 20.6009713"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
