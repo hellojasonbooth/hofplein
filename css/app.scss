@@ -10,9 +10,12 @@ $blue-color: #dbecf2;
 
 $body-font: "Helvetica";
 $serif-font: "Georgia";
+$h1-size: 48px;
+$h2-size: 32px;
 $body-size: 16px;
 $link-size: 14px;
 $button-size: 12px;
+
 
 $mq-xlarge: 1000px;
 $mq-large: 800px;
@@ -35,9 +38,21 @@ $mq-small: 500px;
 
 
 
+
+  /* ======== GENERIC STYLING ======== */
+
+
 body {
     font-family: $body-font;
+    line-height: 1.3;
 }
+
+span.title-serif {
+    font-family: $serif-font;
+    font-style: italic;
+}
+
+
 
 
 
@@ -98,12 +113,17 @@ li.nav-item {
 
 
 
+
+
 /* ======== HERO ======== */
 
 section.hero {
     height: 100vh;
     width:100vw;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #video-background {
@@ -117,9 +137,54 @@ section.hero {
     z-index: -100;
 }
 
+section.hero div.hero-title  {
+
+    h1 {
+        font-size: $h1-size;
+        color: $white-color;
+        text-align: center;
+        text-transform: uppercase;
+        max-width: 460px;
+    }
+
+    p {
+        font-family: $serif-font;
+        color: $white-color;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+}
 
 
-section.test {
-    height: 200vh;
-    background-color: $primary-color;
+
+
+
+section.statement-title {
+    height: 100%;
+    width: 100vw;
+    background-color: $white-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 160px 40px;
+    flex-direction: column;
+
+    span.dash-top {
+        font-size: $h2-size;
+        margin-bottom: 70px;
+    }
+
+    span.dash-bottom {
+        font-size: $h2-size;
+        margin-top: 70px;
+    }
+
+    h2 {
+        font-size: $h2-size;
+        text-align: center;
+        text-transform: uppercase; 
+        max-width: 500px;
+    }
+
 }

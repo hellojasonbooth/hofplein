@@ -71,8 +71,14 @@ input, textarea, select {
     transform: translateY(0px);
     opacity: 1; } }
 
+/* ======== GENERIC STYLING ======== */
 body {
-  font-family: "Helvetica"; }
+  font-family: "Helvetica";
+  line-height: 1.3; }
+
+span.title-serif {
+  font-family: "Georgia";
+  font-style: italic; }
 
 /* ======== BUTTONS ======== */
 .btn-primary {
@@ -116,7 +122,10 @@ li.nav-item {
 section.hero {
   height: 100vh;
   width: 100vw;
-  position: relative; }
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 #video-background {
   position: absolute;
@@ -128,6 +137,37 @@ section.hero {
   height: auto;
   z-index: -100; }
 
-section.test {
-  height: 200vh;
-  background-color: black; }
+section.hero div.hero-title h1 {
+  font-size: 48px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 460px; }
+
+section.hero div.hero-title p {
+  font-family: "Georgia";
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px; }
+
+section.statement-title {
+  height: 100%;
+  width: 100vw;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 160px 40px;
+  flex-direction: column; }
+  section.statement-title span.dash-top {
+    font-size: 32px;
+    margin-bottom: 70px; }
+  section.statement-title span.dash-bottom {
+    font-size: 32px;
+    margin-top: 70px; }
+  section.statement-title h2 {
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 500px; }
