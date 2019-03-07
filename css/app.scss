@@ -639,17 +639,55 @@ section.diagram {
     position: relative;
     margin-bottom: 400px;
 
-    div {
-        padding: 30px;
+    div.col-12.col-md-4.flex {
+        padding: 20px;
+        display: flex;
+        align-items: start;
+
+        img {
+            margin-right: 16px;
+        }
     }
+
 
     div.row.diagram-info {
         background-color: #fff;
         position: absolute;
-        bottom: -200px;
+        bottom: -220px;
         left: 50%;
         transform: translateX(-50%);
         width: 80%;
         margin: auto;
+        padding: 40px;
+        min-height: 340px;
     }
+
+
+    div.features-wrap {
+
+        p {
+            color: $grey-color;
+        }
+
+        h4 {
+            margin-bottom: 6px;
+        }
+    }
+}
+
+
+
+section.features.building {
+    background-color: $primary-color;
+    color: $white-color;
+
+    div.title-wrap{
+        text-align: center;
+        margin: 0 auto 100px auto;
+
+        h2 {
+            max-width: 300px;
+        }
+    }
+
 }
