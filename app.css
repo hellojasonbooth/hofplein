@@ -376,3 +376,14 @@ section.contact {
     margin-bottom: 20px; }
   section.contact p {
     max-width: 370px; }
+
+section.contact-info {
+  background-color: black;
+  color: #fff;
+  padding: 70px 20px; }
+  section.contact-info div.row div.flex {
+    display: flex;
+    padding: 20px 16px; }
+    section.contact-info div.row div.flex img {
+      margin-right: 16px;
+      height: 20px; }

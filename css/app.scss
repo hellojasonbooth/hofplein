@@ -543,3 +543,24 @@ section.contact {
     }
 
 }
+
+section.contact-info {
+    background-color: $primary-color;
+    color: $white-color;
+    padding: 70px 20px;
+
+    div.row {
+
+        div.flex {
+            display: flex;
+            // align-items: center;
+            padding: 20px 16px;
+
+            img {
+                margin-right: 16px;
+                height: 20px;
+            }
+        }
+
+    }
+}
