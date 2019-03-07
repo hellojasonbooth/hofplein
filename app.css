@@ -57,7 +57,7 @@ input, textarea, select {
 /* ======== ANIMATIONS ======== */
 @keyframes fadein {
   0% {
-    transform: translateY(40px);
+    transform: translateY(36px);
     opacity: 0; }
   100% {
     transform: translateY(0px);
@@ -69,14 +69,38 @@ body {
   line-height: 1.3;
   color: black; }
 
+h1 {
+  will-change: transform;
+  will-change: opacity; }
+
 h2 {
   font-size: 32px;
   text-align: center;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  will-change: transform;
+  will-change: opacity; }
 
 h3 {
   font-size: 24px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  will-change: transform;
+  will-change: opacity; }
+
+h4 {
+  will-change: transform;
+  will-change: opacity; }
+
+p {
+  will-change: transform;
+  will-change: opacity; }
+
+img {
+  will-change: transform;
+  will-change: opacity; }
+
+a {
+  will-change: transform;
+  will-change: opacity; }
 
 span.title-serif {
   font-family: "athelas", serif;
@@ -88,10 +112,14 @@ video.block-level--video {
   padding: 0 40px; }
 
 span.dash-top {
-  display: block; }
+  display: block;
+  will-change: transform;
+  will-change: opacity; }
 
 span.dash-bottom {
-  display: block; }
+  display: block;
+  will-change: transform;
+  will-change: opacity; }
 
 /* ======== BUTTONS ======== */
 .btn-primary {

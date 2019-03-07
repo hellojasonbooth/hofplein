@@ -37,7 +37,7 @@ $mq-small: 500px;
 
 /* ======== ANIMATIONS ======== */
 @keyframes fadein {
-    0% {transform: translateY(40px); opacity: 0;}
+    0% {transform: translateY(36px); opacity: 0;}
     100% {transform: translateY(0px); opacity: 1;}
   }
 
@@ -53,15 +53,44 @@ body {
     color: $primary-color;
 }
 
+h1 {
+    will-change: transform;
+    will-change: opacity; 
+}
+
 h2 {
     font-size: $h2-size;
     text-align: center;
     text-transform: uppercase;
+    will-change: transform;
+    will-change: opacity; 
 }
 
 h3 {
     font-size: $h3-size;
     text-transform: uppercase;
+    will-change: transform;
+    will-change: opacity; 
+}
+
+h4 {
+    will-change: transform;
+    will-change: opacity; 
+}
+
+p {
+    will-change: transform;
+    will-change: opacity; 
+}
+
+img {
+    will-change: transform;
+    will-change: opacity; 
+}
+
+a {
+    will-change: transform;
+    will-change: opacity; 
 }
 
 span.title-serif {
@@ -75,10 +104,14 @@ video.block-level--video {
 
 span.dash-top {
     display: block;
+    will-change: transform;
+    will-change: opacity; 
 }
 
 span.dash-bottom {
     display: block;
+    will-change: transform;
+    will-change: opacity; 
 }
 
 
