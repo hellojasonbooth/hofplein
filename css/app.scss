@@ -521,6 +521,7 @@ section.contact {
 
             textarea.form-control {
                 height: 80px;
+                padding-top: 12px;
             }
 
             button {
@@ -562,5 +563,21 @@ section.contact-info {
             }
         }
 
+        a {
+            text-decoration: none;
+            color: $white-color;
+            border-bottom: 2px solid transparent;
+            transition: border-bottom 0.3s ease;
+
+            &:hover {
+                border-bottom: 2px solid $white-color;
+            }
+
+        }
+
+    }
+
+    h4 {
+        margin-bottom: 8px;
     }
 }
