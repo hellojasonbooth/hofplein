@@ -54,14 +54,6 @@ input, textarea, select {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility; }
 
-@font-face {
-  font-family: "Maison Mono";
-  src: url(fonts/MaisonMono-Regular.woff); }
-
-@font-face {
-  font-family: Trade Gothic;
-  src: url(fonts/TradeGothic-Bold.woff); }
-
 /* ======== ANIMATIONS ======== */
 @keyframes fadein {
   0% {
@@ -87,7 +79,8 @@ h3 {
   text-transform: uppercase; }
 
 span.title-serif {
-  font-family: "Georgia";
+  font-family: "athelas", serif;
+  font-weight: 700;
   font-style: italic; }
 
 video.block-level--video {
@@ -128,7 +121,8 @@ span.dash-bottom {
 nav.navbar {
   background-color: #fff;
   padding: 12px 40px;
-  transition: padding 0.4s ease; }
+  transition: padding 0.4s ease;
+  border-bottom: 1px solid #e6e6e6; }
 
 nav.navbar.scrolled {
   padding: 6px 40px; }
@@ -186,7 +180,9 @@ section.hero div.hero-title {
     text-transform: uppercase;
     max-width: 460px; }
   section.hero div.hero-title p {
-    font-family: "Georgia";
+    font-family: "athelas", serif;
+    font-weight: 700;
+    font-style: italic;
     color: #fff;
     text-align: center;
     text-transform: uppercase;
