@@ -351,3 +351,7 @@ section.location {
     width: 100%;
     padding: 0;
     transform: translateY(5px); }
+
+section.contact {
+  padding-top: 200px;
+  background-color: #dbecf2; }
