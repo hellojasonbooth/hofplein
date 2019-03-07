@@ -131,7 +131,7 @@ nav.navbar {
   transition: padding 0.4s ease; }
 
 nav.navbar.scrolled {
-  padding: 0px 40px; }
+  padding: 6px 40px; }
 
 div.collapse.navbar-collapse.active {
   transition: all 0.4s ease;
@@ -149,7 +149,11 @@ ul.navbar-nav {
   margin-right: 20px; }
 
 .main-logo {
-  height: 72px; }
+  height: 72px;
+  transition: height 0.3s ease; }
+
+.main-logo.scrolled {
+  height: 62px; }
 
 li.nav-item {
   margin: 0 8px; }
@@ -291,12 +295,15 @@ section.create-layout {
     bottom: 40px;
     right: 40px; }
 
+/* ======== Homepage Additonal ======== */
 section.additional {
   padding-bottom: 150px; }
   section.additional img {
     margin-bottom: 30px; }
   section.additional h3, section.additional p {
     margin-bottom: 26px; }
+  section.additional div.container-fluid {
+    padding: 0 40px; }
 
 main {
   margin-bottom: 200px;

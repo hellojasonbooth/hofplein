@@ -129,7 +129,7 @@ nav.navbar {
 }
 
 nav.navbar.scrolled {
-    padding: 0px 40px;
+    padding: 6px 40px;
 }
 
 div.collapse.navbar-collapse.active {
@@ -153,6 +153,11 @@ ul.navbar-nav {
 
 .main-logo {
     height: 72px;
+    transition: height 0.3s ease;
+}
+
+.main-logo.scrolled {
+    height: 62px;
 }
 
 li.nav-item {
@@ -383,6 +388,9 @@ section.create-layout {
 
 
 
+
+/* ======== Homepage Additonal ======== */
+
 section.additional {
 
     padding-bottom: 150px;
@@ -393,6 +401,10 @@ section.additional {
 
     h3, p {
         margin-bottom: 26px;
+    }
+
+    div.container-fluid {
+        padding: 0 40px;
     }
 
 
