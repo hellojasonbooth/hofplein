@@ -147,12 +147,12 @@ span.dash-bottom {
 
 /* ======== NAVIGATION ======== */
 nav.navbar {
-  background-color: #fff;
   padding: 12px 40px;
-  transition: padding 0.4s ease;
-  border-bottom: 1px solid #e6e6e6; }
+  transition: all 0.4s ease; }
 
 nav.navbar.scrolled {
+  background-color: #fff;
+  border-bottom: 1px solid #e6e6e6;
   padding: 6px 40px; }
 
 div.collapse.navbar-collapse.active {
@@ -204,22 +204,21 @@ section.hero {
   height: auto;
   z-index: -100; }
 
-section.hero div.hero-title {
-  margin-top: 100px; }
-  section.hero div.hero-title h1 {
-    font-size: 48px;
-    color: #fff;
-    text-align: center;
-    text-transform: uppercase;
-    max-width: 460px; }
-  section.hero div.hero-title p {
-    font-family: "athelas", serif;
-    font-weight: 700;
-    font-style: italic;
-    color: #fff;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 20px; }
+section.hero div.hero-title h1 {
+  font-size: 48px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 460px; }
+
+section.hero div.hero-title p {
+  font-family: "athelas", serif;
+  font-weight: 700;
+  font-style: italic;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px; }
 
 /* ======== Title section ======== */
 section.statement-title {
@@ -322,7 +321,8 @@ section.create-layout {
   section.create-layout h2 {
     position: absolute;
     bottom: 40px;
-    right: 40px; }
+    right: 40px;
+    z-index: 2; }
 
 /* ======== Homepage Additonal ======== */
 section.additional {
@@ -425,3 +425,25 @@ section.contact-info {
       border-bottom: 2px solid #fff; }
   section.contact-info h4 {
     margin-bottom: 8px; }
+
+/* ======== THE BUILDING ======== */
+section.hero.alt {
+  text-align: center;
+  color: #fff; }
+  section.hero.alt span.dash-top, section.hero.alt span.dash-bottom {
+    font-size: 32px; }
+
+section.diagram {
+  padding: 0 40px;
+  position: relative;
+  margin-bottom: 400px; }
+  section.diagram div {
+    padding: 30px; }
+  section.diagram div.row.diagram-info {
+    background-color: #fff;
+    position: absolute;
+    bottom: -200px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    margin: auto; }
