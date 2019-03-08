@@ -10,7 +10,8 @@ $lightgrey-link: #d3d3d3;
 $border-grey: #e6e6e6;
 $blue-color: #dbecf2;
 
-$body-font: "Helvetica";
+$body-font: "Campton Light";
+$title-font: "Campton Bold";
 
 $h1-size: 48px;
 $h1-mobile: 38px;
@@ -62,10 +63,12 @@ body {
 h1 {
     will-change: transform;
     will-change: opacity; 
+    font-family: $title-font;
 }
 
 h2 {
     font-size: $h2-size;
+    font-family: $title-font;
     text-align: center;
     text-transform: uppercase;
     will-change: transform;
@@ -74,12 +77,14 @@ h2 {
 
 h3 {
     font-size: $h3-size;
+    font-family: $title-font;
     text-transform: uppercase;
     will-change: transform;
     will-change: opacity; 
 }
 
 h4 {
+    font-family: $title-font;
     will-change: transform;
     will-change: opacity; 
 }
@@ -118,18 +123,24 @@ span.dash-top {
     display: block;
     will-change: transform;
     will-change: opacity; 
+    @include athelas_font(700);
 }
 
 span.dash-bottom {
     display: block;
     will-change: transform;
     will-change: opacity; 
+    @include athelas_font(700);
 }
 
 
 /* helpers */
 .mt-lg {
     margin-top: 120px;
+}
+
+.mb-lg {
+    margin-bottom: 120px;
 }
 
 
@@ -178,6 +189,7 @@ span.dash-bottom {
 nav.navbar {
     padding: 12px 40px;
     transition: all 0.4s ease;
+    font-family: 'Helvetica', sans-serif;
 }
 
 nav.navbar.scrolled {
@@ -907,6 +919,15 @@ section.video-color--bg {
 
     @media (max-width: 768px) {
         margin-top: 0;
+    
+    }
+
+}
+
+.mb-lg {
+
+    @media (max-width: 768px) {
+        margin-bottom: 0;
     
     }
 

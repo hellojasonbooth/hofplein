@@ -54,6 +54,14 @@ input, textarea, select {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility; }
 
+@font-face {
+  font-family: Campton Light;
+  src: url(/fonts/campton-light.woff2), url(fonts/campton-light.woff); }
+
+@font-face {
+  font-family: Campton Bold;
+  src: url(/fonts/campton-bold.woff2), url(fonts/campton-bold.woff); }
+
 /* ======== ANIMATIONS ======== */
 @keyframes fadein {
   0% {
@@ -65,16 +73,18 @@ input, textarea, select {
 
 /* ======== GENERIC STYLING ======== */
 body {
-  font-family: "Helvetica";
+  font-family: "Campton Light";
   line-height: 1.3;
   color: black; }
 
 h1 {
   will-change: transform;
-  will-change: opacity; }
+  will-change: opacity;
+  font-family: "Campton Bold"; }
 
 h2 {
   font-size: 32px;
+  font-family: "Campton Bold";
   text-align: center;
   text-transform: uppercase;
   will-change: transform;
@@ -82,11 +92,13 @@ h2 {
 
 h3 {
   font-size: 24px;
+  font-family: "Campton Bold";
   text-transform: uppercase;
   will-change: transform;
   will-change: opacity; }
 
 h4 {
+  font-family: "Campton Bold";
   will-change: transform;
   will-change: opacity; }
 
@@ -119,16 +131,25 @@ video.block-level--video {
 span.dash-top {
   display: block;
   will-change: transform;
-  will-change: opacity; }
+  will-change: opacity;
+  font-family: "athelas", serif;
+  font-weight: 700;
+  font-style: italic; }
 
 span.dash-bottom {
   display: block;
   will-change: transform;
-  will-change: opacity; }
+  will-change: opacity;
+  font-family: "athelas", serif;
+  font-weight: 700;
+  font-style: italic; }
 
 /* helpers */
 .mt-lg {
   margin-top: 120px; }
+
+.mb-lg {
+  margin-bottom: 120px; }
 
 /* ======== BUTTONS ======== */
 .btn-primary {
@@ -157,7 +178,8 @@ span.dash-bottom {
 /* ======== NAVIGATION ======== */
 nav.navbar {
   padding: 12px 40px;
-  transition: all 0.4s ease; }
+  transition: all 0.4s ease;
+  font-family: 'Helvetica', sans-serif; }
 
 nav.navbar.scrolled {
   background-color: #fff;
@@ -589,6 +611,10 @@ section.video-color--bg div.info-card {
 @media (max-width: 768px) {
   .mt-lg {
     margin-top: 0; } }
+
+@media (max-width: 768px) {
+  .mb-lg {
+    margin-bottom: 0; } }
 
 @media (max-width: 768px) {
   section.hero div.hero-title h1 {
