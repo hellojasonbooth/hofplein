@@ -13,8 +13,14 @@ $blue-color: #dbecf2;
 $body-font: "Helvetica";
 
 $h1-size: 48px;
+$h1-mobile: 38px;
+
 $h2-size: 32px;
+$h2-mobile: 26px;
+
 $h3-size: 24px;
+
+$large-copy: 18px;
 $body-size: 16px;
 $link-size: 14px;
 $button-size: 12px;
@@ -213,6 +219,16 @@ li.nav-item {
 }
 
 
+.navbar-light .navbar-toggler {
+    border: none;
+
+}
+
+button:focus {
+    outline: none;
+}
+
+
 
 
 
@@ -247,7 +263,6 @@ section.hero {
 
 section.hero div.hero-title  {
 
-    // margin-top: 100px;
 
     h1 {
         font-size: $h1-size;
@@ -280,6 +295,10 @@ section.statement-title {
     padding: 160px 40px;
     flex-direction: column;
 
+    @media (max-width: 768px) {
+        padding: 100px 40px;
+    }
+
     span.dash-top {
         font-size: $h2-size;
         margin-bottom: 70px;
@@ -304,6 +323,11 @@ section.statement-title {
 
 section.content-block {
     position: relative;
+
+
+    @media (max-width: 768px) {
+        padding-bottom: 100px;
+    }
 
     div.container-fluid {
         padding: 0 40px;
@@ -334,6 +358,11 @@ div.background-color {
     width: 80%;
     background-color: $blue-color;
     height: 100%;
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+
 }
 
 div.col-md {
@@ -358,8 +387,21 @@ section.content-block--alt {
     margin-top: 120px;
     position: relative;
 
+    @media (max-width: 768px) {
+        padding-bottom: 100px;
+        margin-top: -5px;
+    }
+
     div.container-fluid {
         padding: 0 40px;
+
+        div.order-first {
+
+            @media (max-width: 768px) {
+                order: 1;
+            }
+        }
+
     }
 
     img {
@@ -388,6 +430,10 @@ div.background-color--alt {
     width: 80%;
     background-color: $primary-color;
     height: 100%;
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
 }
 
 div.col-md {
@@ -434,6 +480,15 @@ section.create-layout {
     position: relative;
 
 
+    video.block-level--video {
+
+        @media (max-width: 768px) {
+            padding: 0;
+        }
+
+    }
+
+
     h2 {
         position: absolute;
         bottom: 40px;
@@ -461,6 +516,15 @@ section.additional {
 
     div.container-fluid {
         padding: 0 40px;
+
+        div.row div:nth-child(2) {
+            // background-color: beige;
+
+            @media (max-width: 768px) {
+                margin-top: 60px;
+            }
+
+        }
     }
 
 
@@ -504,6 +568,10 @@ section.statement-title.alt {
 section.history {
     padding: 140px 10px 0 10px;
     text-align: center;
+
+    @media (max-width: 768px) {
+        padding: 100px 10px;
+    }
 
     span.dash-top {
         font-size: 32px;
@@ -767,10 +835,18 @@ section.video-color--bg {
 
             span {
                 font-size: 32px;
+
+                @media (max-width: 600px) {
+                    font-size: $large-copy;
+                }
             }
 
             h2 {
                 max-width: 560px;
+
+                @media (max-width: 600px) {
+                    font-size: $body-size;
+                }
             }
         }
 
@@ -785,7 +861,7 @@ section.video-color--bg {
         padding: 60px;
 
         @media (max-width: 600px) {
-            transform: translateY(0px);
+            transform: translateY(-30px);
             padding: 30px;
         }
 
@@ -804,7 +880,7 @@ section.video-color--bg {
 
         @media (max-width: 600px) {
             display: block;
-            width: 100%;
+            width: 90%;
 
         }
     }
@@ -813,5 +889,26 @@ section.video-color--bg {
 
 }
 
+.mt-lg {
+
+    @media (max-width: 768px) {
+        margin-top: 0;
+    
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+    section.hero div.hero-title h1 {
+        font-size: $h1-mobile;
+    }
+    
+    h2 {
+        font-size: $h2-mobile;
+    }
+
+}
 
 
