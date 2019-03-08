@@ -450,7 +450,8 @@ section.diagram {
     padding: 40px; }
     @media (max-width: 600px) {
       section.diagram div.row.diagram-info {
-        padding: 20px; } }
+        padding: 20px;
+        margin: 0; } }
   section.diagram div.features-wrap p {
     color: #656565; }
   section.diagram div.features-wrap h4 {
@@ -483,3 +484,43 @@ div.slider-title {
     margin: auto; }
   div.slider-title span {
     font-size: 32px; }
+
+@media (max-width: 600px) {
+  section.video-color--bg .fullwidth {
+    padding: 0; } }
+
+section.video-color--bg div.video-container--flex {
+  position: relative; }
+  section.video-color--bg div.video-container--flex div.title-wrap {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; }
+    section.video-color--bg div.video-container--flex div.title-wrap span {
+      font-size: 32px; }
+    section.video-color--bg div.video-container--flex div.title-wrap h2 {
+      max-width: 560px; }
+
+section.video-color--bg div.info-card {
+  background-color: #fff;
+  display: flex;
+  transform: translateY(-50px);
+  width: 80%;
+  margin: auto;
+  padding: 40px; }
+  @media (max-width: 600px) {
+    section.video-color--bg div.info-card {
+      transform: translateY(0px); } }
+  section.video-color--bg div.info-card h3 {
+    margin-bottom: 20px; }
+  section.video-color--bg div.info-card div {
+    width: 50%; }
+    @media (max-width: 600px) {
+      section.video-color--bg div.info-card div {
+        width: 100%; } }
+  @media (max-width: 600px) {
+    section.video-color--bg div.info-card {
+      display: block;
+      width: 100%; } }
