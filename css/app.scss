@@ -93,6 +93,12 @@ a {
     will-change: opacity; 
 }
 
+a.external-link {
+    text-decoration: underline;
+    color: $primary-color;
+    font-weight: 600;
+}
+
 span.title-serif {
     @include athelas_font(700);
 }
@@ -112,6 +118,12 @@ span.dash-bottom {
     display: block;
     will-change: transform;
     will-change: opacity; 
+}
+
+
+/* helpers */
+.mt-lg {
+    margin-top: 120px;
 }
 
 
@@ -770,10 +782,11 @@ section.video-color--bg {
         transform: translateY(-50px);
         width: 80%;
         margin: auto;
-        padding: 40px;
+        padding: 60px;
 
         @media (max-width: 600px) {
             transform: translateY(0px);
+            padding: 30px;
         }
 
         h3 {
