@@ -636,8 +636,11 @@ section.hero.alt {
 
 section.diagram {
     padding: 0 40px;
-    position: relative;
-    margin-bottom: 400px;
+    margin-bottom: 160px;
+
+    @media (max-width: 600px) {
+        padding: 0px;
+    }
 
     div.col-12.col-md-4.flex {
         padding: 20px;
@@ -652,14 +655,12 @@ section.diagram {
 
     div.row.diagram-info {
         background-color: #fff;
-        position: absolute;
-        bottom: -220px;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 80%;
-        margin: auto;
         padding: 40px;
-        min-height: 340px;
+
+        @media (max-width: 600px) {
+            padding: 20px;
+        }
+
     }
 
 
@@ -691,3 +692,46 @@ section.features.building {
     }
 
 }
+
+
+/* ==== slider ==== */
+
+
+section.layout-slider {
+    margin-bottom: 160px;
+
+    div.row {
+
+        div.flex {
+            display: flex;
+            align-items: center;
+            padding: 20px 16px;
+    
+            img {
+                margin-right: 16px;
+            }
+        }
+    
+    }
+
+
+
+
+}
+
+div.slider-title {
+   text-align: center; 
+   padding: 80px 0;
+
+   h2 {
+    max-width: 260px;
+    margin: auto;
+   }
+
+   span {
+       font-size: 32px;
+   }
+}
+
+
+
