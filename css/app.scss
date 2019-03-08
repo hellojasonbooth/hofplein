@@ -465,6 +465,11 @@ section.features  {
             align-items: center;
             padding: 20px 16px;
 
+            @media (max-width: 768px) {
+                padding: 20px 6px;
+                align-items: flex-start;
+            }
+
             img {
                 margin-right: 16px;
             }
@@ -494,6 +499,12 @@ section.create-layout {
         bottom: 40px;
         right: 40px;
         z-index: 2;
+        padding-right: 40px;
+
+        @media (max-width: 600px) {
+            right: 10px;
+        }
+
     }
 }
 
@@ -517,8 +528,11 @@ section.additional {
     div.container-fluid {
         padding: 0 40px;
 
+        @media (max-width: 768px) {
+            padding: 0 20px;
+        }
+
         div.row div:nth-child(2) {
-            // background-color: beige;
 
             @media (max-width: 768px) {
                 margin-top: 60px;
