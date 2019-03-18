@@ -9,15 +9,15 @@ animatedTags.forEach(tag =>{
   
   const fadeIn = function() {
     
-    let delay = 0.07
+    let delay = 0.06
     
     animatedTags.forEach(tag =>{
       const tagTop = tag.getBoundingClientRect().top
       const tagBottom = tag.getBoundingClientRect().bottom
          
       if(tagTop < window.innerHeight && tagBottom > 0) {
-        tag.style.animation = `fadein 1.1s ${delay}s both`
-        delay = delay + 0.07
+        tag.style.animation = `fadein 1s ${delay}s both`
+        delay = delay + 0.06
       } else {
         tag.style.opacity = 0
         tag.style.animation = ""

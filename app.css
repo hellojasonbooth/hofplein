@@ -124,6 +124,9 @@ span.title-serif {
   font-weight: 700;
   font-style: italic; }
 
+video {
+  vertical-align: bottom; }
+
 video.block-level--video {
   width: 100%;
   padding: 0 40px; }
@@ -143,6 +146,11 @@ span.dash-bottom {
   font-family: "athelas", serif;
   font-weight: 700;
   font-style: italic; }
+
+a.inline-link {
+  color: black;
+  font-family: "Campton Bold";
+  text-decoration: underline; }
 
 /* helpers */
 .mt-lg {
@@ -366,7 +374,7 @@ section.features {
   padding: 120px 20px; }
   section.features div.row div.flex {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     padding: 20px 16px; }
     @media (max-width: 768px) {
       section.features div.row div.flex {
@@ -431,7 +439,7 @@ section.statement-title.alt {
   margin-top: 32px; }
 
 section.history {
-  padding: 140px 10px 0 10px;
+  padding: 140px 10px;
   text-align: center; }
   @media (max-width: 768px) {
     section.history {
@@ -455,6 +463,21 @@ section.location {
     width: 100%;
     padding: 0;
     transform: translateY(5px); }
+
+section.quote-block {
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 28px; }
+  section.quote-block div.col p:nth-child(1) {
+    margin-bottom: 28px; }
+  @media (max-width: 600px) {
+    section.quote-block {
+      font-size: 22px; } }
 
 /* ======== CONTACT PAGE ======== */
 section.contact {

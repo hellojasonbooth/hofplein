@@ -114,6 +114,10 @@ span.title-serif {
     @include athelas_font(700);
 }
 
+video {
+    vertical-align: bottom;
+}
+
 video.block-level--video {
     width: 100%;
     padding: 0 40px;
@@ -131,6 +135,12 @@ span.dash-bottom {
     will-change: transform;
     will-change: opacity; 
     @include athelas_font(700);
+}
+
+a.inline-link {
+    color: $primary-color;
+    font-family: $title-font;
+    text-decoration: underline;
 }
 
 
@@ -474,7 +484,7 @@ section.features  {
 
         div.flex {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             padding: 20px 16px;
 
             @media (max-width: 768px) {
@@ -592,7 +602,7 @@ section.statement-title.alt {
 
 
 section.history {
-    padding: 140px 10px 0 10px;
+    padding: 140px 10px;
     text-align: center;
 
     @media (max-width: 768px) {
@@ -634,6 +644,25 @@ section.location {
     }
 
 
+}
+
+section.quote-block {
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 28px;
+
+    div.col p:nth-child(1) {
+        margin-bottom: 28px;
+    }
+
+    @media (max-width: 600px) {
+        font-size: 22px;
+     }
 }
 
 
