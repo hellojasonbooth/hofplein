@@ -576,6 +576,15 @@ main {
     background-color: $white-color;
 }
 
+section.international-map {
+    // background-color: $primary-color;
+    padding: 40px;
+
+    @media (max-width: 600px) {
+        padding: 20px;
+    }
+}
+
 
 footer {
     position: fixed;
@@ -629,28 +638,6 @@ section.history {
 
 }
 
-
-section.location {
-    text-align: center;
-    padding: 160px 0 0 0;
-
-    div.container {
-        margin-bottom: 40px;
-    }
-
-    span.dash-top {
-        font-size: 32px;
-    }
-
-    video.block-level--video.fullwidth {
-        width: 100%;
-        padding: 0;
-        transform: translateY(5px);
-    }
-
-
-}
-
 section.quote-block {
     min-height: 100vh;
     background-color: black;
@@ -668,6 +655,31 @@ section.quote-block {
     @media (max-width: 600px) {
         font-size: 22px;
      }
+}
+
+
+
+/* ======== LOCATION ======== */
+
+section.location {
+    text-align: center;
+    // padding: 0px 0 0 0;
+
+    div.container {
+        margin-bottom: 40px;
+    }
+
+    span.dash-top {
+        font-size: 32px;
+    }
+
+    video.block-level--video.fullwidth {
+        width: 100%;
+        padding: 0;
+        transform: translateY(5px);
+    }
+
+
 }
 
 
