@@ -105,6 +105,11 @@ h4 {
 h5 {
   font-family: "Campton Bold"; }
 
+h6 {
+  font-family: "Campton Bold";
+  color: black;
+  font-size: 22px; }
+
 p {
   will-change: transform;
   will-change: opacity; }
@@ -230,6 +235,14 @@ li.nav-item {
 
 button:focus {
   outline: none; }
+
+.carousel-control-prev {
+  filter: invert(100%);
+  opacity: 1; }
+
+.carousel-control-next {
+  filter: invert(100%);
+  opacity: 1; }
 
 /* ======== HERO ======== */
 section.hero {
