@@ -103,8 +103,7 @@ h4 {
   will-change: opacity; }
 
 h5 {
-  font-family: "Campton Bold";
-  color: black; }
+  font-family: "Campton Bold"; }
 
 p {
   will-change: transform;
@@ -162,6 +161,9 @@ a.inline-link {
 
 .mb-lg {
   margin-bottom: 120px; }
+
+.mb-sm {
+  margin-bottom: 10px; }
 
 /* ======== BUTTONS ======== */
 .btn-primary {
@@ -428,6 +430,9 @@ section.international-map {
   @media (max-width: 600px) {
     section.international-map {
       padding: 20px; } }
+
+section.layout-slider h5 {
+  color: black; }
 
 footer {
   position: fixed;

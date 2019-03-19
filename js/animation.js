@@ -1,6 +1,6 @@
 
 
-const animatedTags = document.querySelectorAll("h1, h2, h3, h4, p, .fadein")
+const animatedTags = document.querySelectorAll("h1, h2, h3, h4, h5, p, .fadein")
 
 animatedTags.forEach(tag =>{
     tag.style.opacity = 0

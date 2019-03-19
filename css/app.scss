@@ -91,7 +91,7 @@ h4 {
 
 h5 {
     font-family: $title-font;
-    color: $primary-color;
+    // color: $primary-color;
 }
 
 p {
@@ -156,6 +156,10 @@ a.inline-link {
 
 .mb-lg {
     margin-bottom: 120px;
+}
+
+.mb-sm {
+    margin-bottom: 10px;
 }
 
 
@@ -583,6 +587,14 @@ section.international-map {
     @media (max-width: 600px) {
         padding: 20px;
     }
+}
+
+section.layout-slider {
+
+    h5 {
+        color: $primary-color;
+    }
+
 }
 
 
