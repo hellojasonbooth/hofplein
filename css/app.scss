@@ -91,7 +91,6 @@ h4 {
 
 h5 {
     font-family: $title-font;
-    // color: $primary-color;
 }
 
 h6 {
@@ -281,14 +280,6 @@ li.nav-item {
 button:focus {
     outline: none;
 }
-
-// .carousel-control-prev-icon {
-//     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
-//    }
-
-// .carousel-control-next-icon {
-//     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
-//   }
 
 .carousel-control-prev {
     filter: invert(100%);
@@ -676,9 +667,9 @@ footer {
 
 /* ======== ABOUT PAGE ======== */
 
-section.statement-title.alt {
-    margin-top: 32px;
-}
+// section.statement-title.alt {
+//     padding-top: 32px;
+// }
 
 
 
@@ -883,6 +874,13 @@ div.col-5th {
 
 /* ======== THE BUILDING ======== */
 
+
+section.statement-title.alt {
+
+    h2 {
+        max-width: 440px;
+    }
+}
 
 section.hero.alt {
 

@@ -486,9 +486,6 @@ footer {
     cursor: pointer; }
 
 /* ======== ABOUT PAGE ======== */
-section.statement-title.alt {
-  margin-top: 32px; }
-
 section.history {
   padding: 140px 10px;
   text-align: center; }
@@ -605,6 +602,9 @@ div.col-5th {
       width: 40%; } }
 
 /* ======== THE BUILDING ======== */
+section.statement-title.alt h2 {
+  max-width: 440px; }
+
 section.hero.alt {
   text-align: center;
   color: #fff; }
