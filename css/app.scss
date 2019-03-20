@@ -623,6 +623,18 @@ section.international-map {
     @media (max-width: 600px) {
         padding: 20px;
     }
+
+    div.map-title {
+        padding-bottom: 100px;
+        text-align: center;
+
+        max-width: 260px;
+        margin: auto;
+
+        span {
+            font-size: 32px;
+        }
+    }
 }
 
 section.layout-slider {
