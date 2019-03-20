@@ -553,6 +553,23 @@ section.contact-info {
   section.contact-info h4 {
     margin-bottom: 8px; }
 
+section.partner-logos {
+  padding: 160px 0; }
+
+div.col-5th {
+  width: 20%;
+  text-align: center; }
+  div.col-5th img {
+    transform: scale(0.5); }
+  div.col-5th p {
+    text-align: center; }
+  @media (max-width: 800px) {
+    div.col-5th {
+      width: 33.33%; } }
+  @media (max-width: 580px) {
+    div.col-5th {
+      width: 50%; } }
+
 /* ======== THE BUILDING ======== */
 section.hero.alt {
   text-align: center;
