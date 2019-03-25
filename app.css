@@ -277,7 +277,7 @@ div.video-container {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: -1;
+  z-index: -4;
   pointer-events: none;
   overflow: hidden; }
   div.video-container iframe {
@@ -291,6 +291,12 @@ div.video-container {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
+
+div.video-container.home {
+  background-image: url("img/video-poster-image.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
 
 section.hero div.hero-title h1 {
   font-size: 48px;
@@ -459,7 +465,6 @@ section.additional {
         margin-top: 60px; } }
 
 main {
-  margin-bottom: 200px;
   background-color: #fff;
   overflow: hidden; }
 
@@ -483,16 +488,12 @@ section.layout-slider h5 {
   color: black; }
 
 footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
   height: 200px;
   width: 100%;
   background-color: black;
   display: flex;
   justify-content: space-between;
-  padding: 0px 40px;
-  z-index: -102; }
+  padding: 0px 40px; }
   footer img.up {
     width: 30px;
     cursor: pointer; }

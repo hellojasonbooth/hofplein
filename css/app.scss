@@ -319,7 +319,7 @@ div.video-container {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1;
+    z-index: -4;
     pointer-events: none;
     overflow: hidden;
 
@@ -333,6 +333,13 @@ div.video-container {
         left: 50%;
         transform: translate(-50%, -50%);
     }
+}
+
+div.video-container.home {
+    background-image: url("img/video-poster-image.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 section.hero div.hero-title  {
@@ -619,7 +626,7 @@ section.additional {
 }
 
 main {
-    margin-bottom: 200px;
+    // margin-bottom: 200px;
     background-color: $white-color;
     overflow: hidden;
 }
@@ -658,16 +665,16 @@ section.layout-slider {
 
 
 footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    // position: fixed;
+    // bottom: 0;
+    // left: 0;
     height: 200px;
     width: 100%;
     background-color: $primary-color;
     display: flex;
     justify-content: space-between;
     padding: 0px 40px;
-    z-index: -102;
+    // z-index: -102;
 
     img.up {
         width: 30px;
