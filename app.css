@@ -449,7 +449,8 @@ section.additional {
 
 main {
   margin-bottom: 200px;
-  background-color: #fff; }
+  background-color: #fff;
+  overflow: hidden; }
 
 section.international-map {
   padding: 40px; }
