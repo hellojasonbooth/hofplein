@@ -33,11 +33,11 @@ $mq-medium: 600px;
 $mq-small: 500px;
 
 
-@mixin mq($width) {
-    @media (max-width: $width) {
-        @content;
-    }
-}
+// @mixin mq($width) {
+//     @media (max-width: $width) {
+//         @content;
+//     }
+// }
 
 
 
