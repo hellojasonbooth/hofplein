@@ -464,7 +464,8 @@ section.additional {
         margin-top: 60px; } }
 
 main {
-  background-color: #fff; }
+  background-color: #fff;
+  overflow: hidden; }
 
 section.international-map {
   padding: 40px; }
@@ -534,10 +535,20 @@ section.location {
     margin-bottom: 40px; }
   section.location span.dash-top {
     font-size: 32px; }
-  section.location video.block-level--video.fullwidth {
+  section.location div.block-level--video.fullwidth {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%; }
+  section.location .block-level--video.fullwidth iframe,
+  section.location .block-level--video.fullwidth object,
+  section.location .block-level--video.fullwidth embed {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    padding: 0;
-    transform: translateY(5px); }
+    height: 100%; }
 
 /* ======== CONTACT PAGE ======== */
 section.contact {
@@ -720,6 +731,22 @@ section.video-color--bg div.info-card {
     section.video-color--bg div.info-card {
       display: block;
       width: 90%; } }
+
+section.video-color--bg div.block-level--video.fullwidth {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%; }
+
+section.video-color--bg .block-level--video.fullwidth iframe,
+section.video-color--bg .block-level--video.fullwidth object,
+section.video-color--bg .block-level--video.fullwidth embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
 
 @media (max-width: 768px) {
   .mt-lg {
