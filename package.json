@@ -1,5 +1,5 @@
 {
-  "name": "oldandnew",
+  "name": "hofplein",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,17 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hellojasonbooth/oldandnew.git"
+    "url": "git+https://github.com/hellojasonbooth/hofplein.git"
   },
   "author": "Jason Booth",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hellojasonbooth/oldandnew/issues"
+    "url": "https://github.com/hellojasonbooth/hofplein/issues"
   },
-  "homepage": "https://github.com/hellojasonbooth/oldandnew#readme",
+  "homepage": "https://github.com/hellojasonbooth/hofplein#readme",
   "devDependencies": {
     "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean-css": "^4.0.0",
     "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
     "node-sass": "^4.11.0"
   }
 }

@@ -13,7 +13,8 @@ const toggleNavbar = function() {
         navbarTag.classList.remove("scrolled")
         logoTag.classList.remove("scrolled")
     }
-  }
+
+}
 
   toggleNavbar()
 
