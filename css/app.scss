@@ -873,7 +873,7 @@ section.partner-logos {
 }
 
 div.col-5th {
-    width: 20%;
+    width: 33.33%;
     text-align: center;
    
     img {
@@ -886,15 +886,11 @@ div.col-5th {
 
         @media (max-width: 700px) {
             margin-top: -30px;
-         }
+        }
     }
 
-    @media (max-width: 800px) {
-        width: 33.33%;
-     }
-
      @media (max-width: 580px) {
-         margin: auto;
+        margin: auto;
         width: 40%;
      }
 
